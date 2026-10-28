@@ -1,6 +1,7 @@
 import manifest from "../../data/image-manifest.json";
 import type { ImageRef } from "../../lib/types";
 import { cn } from "../../lib/cn";
+import { getImageUrl } from "../../lib/imageUrl";
 
 type ManifestEntry = {
   width: number;
@@ -34,12 +35,12 @@ export function Picture({
   const available = widths.filter((width) => width <= meta.width);
   const fallback = available[available.length - 1] ?? 600;
   const srcSet = available
-    .map((width) => `/images/${image.name}-${width}.webp ${width}w`)
+    .map((width) => `${getImageUrl(image.name, width)} ${width}w`)
     .join(", ");
 
   return (
     <img
-      src={`/images/${image.name}-${fallback}.webp`}
+      src={getImageUrl(image.name, fallback)}
       srcSet={srcSet}
       sizes={sizes}
       alt={image.alt}

@@ -10,6 +10,7 @@ import { Picture } from "../components/ui/Picture";
 import { useToast } from "../context/ToastContext";
 import { articleBySlug, journal } from "../data/journal";
 import { site } from "../data/site";
+import { getAbsoluteImageUrl } from "../lib/imageUrl";
 import { Seo } from "../lib/seo";
 
 export function JournalArticlePage() {
@@ -61,7 +62,7 @@ export function JournalArticlePage() {
         url: `${site.url}/og-cover.png`,
       },
     },
-    image: [`${site.url}/images/${article.image.name}-1200.webp`],
+    image: [getAbsoluteImageUrl(article.image.name, 1200)],
     mainEntityOfPage: `${site.url}/journal/${article.slug}`,
     articleSection: article.category,
   };
@@ -83,7 +84,7 @@ export function JournalArticlePage() {
         description={article.excerpt}
         canonical={`/journal/${article.slug}`}
         type="article"
-        image={`/images/${article.image.name}-1200.webp`}
+        image={getAbsoluteImageUrl(article.image.name, 1200)}
         jsonLd={jsonLd}
       />
 

@@ -24,6 +24,7 @@ import { productBySlug, products } from "../data/products";
 import { site } from "../data/site";
 import { cn } from "../lib/cn";
 import { formatINR } from "../lib/currency";
+import { getAbsoluteImageUrl } from "../lib/imageUrl";
 import { Seo } from "../lib/seo";
 import type { Product } from "../lib/types";
 import { useAddToBag } from "../lib/useAddToBag";
@@ -127,8 +128,8 @@ function ProductDetail({ product }: { product: Product }) {
       description: product.description,
       disambiguatingDescription:
         "Sample product data for the Aangan design prototype. No payment is processed and no order can be placed.",
-      image: product.images.map(
-        (image) => `${site.url}/images/${image.name}-1200.webp`,
+      image: product.images.map((image) =>
+        getAbsoluteImageUrl(image.name, 1200),
       ),
       sku: product.id.toUpperCase(),
       brand: { "@type": "Brand", name: "Aangan" },
@@ -176,7 +177,7 @@ function ProductDetail({ product }: { product: Product }) {
         description={`${product.subtitle} ${product.description}`}
         canonical={`/shop/${product.slug}`}
         type="product"
-        image={`/images/${product.images[0].name}-1200.webp`}
+        image={getAbsoluteImageUrl(product.images[0].name, 1200)}
         jsonLd={jsonLd}
       />
 
