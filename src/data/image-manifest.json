@@ -1,0 +1,194 @@
+{
+  "hero-knit": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#4f3f34"
+  },
+  "wool-macro": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#795c3f"
+  },
+  "nalanda": {
+    "width": 2000,
+    "height": 1500,
+    "ratio": 1.3333,
+    "color": "#897c75"
+  },
+  "village-road": {
+    "width": 2000,
+    "height": 2967,
+    "ratio": 0.6741,
+    "color": "#85837e"
+  },
+  "yarn-still": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#251b16"
+  },
+  "hands-knitting": {
+    "width": 1936,
+    "height": 2899,
+    "ratio": 0.6678,
+    "color": "#7e7060"
+  },
+  "knit-detail": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#9a9186"
+  },
+  "model-window": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#7c7773"
+  },
+  "editorial-duo": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#878474"
+  },
+  "winter-field": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#8f8d72"
+  },
+  "hands-knitting-2": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#584944"
+  },
+  "stack-beige": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#b7a996"
+  },
+  "sweater-chair": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#e2d5ce"
+  },
+  "village-women": {
+    "width": 2000,
+    "height": 1250,
+    "ratio": 1.6,
+    "color": "#9d907d"
+  },
+  "spinning-wool": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#7d5c4c"
+  },
+  "stack-cream": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#7b6c5e"
+  },
+  "cardigan-hanger": {
+    "width": 2000,
+    "height": 2667,
+    "ratio": 0.7499,
+    "color": "#8a8377"
+  },
+  "stack-close": {
+    "width": 2000,
+    "height": 1335,
+    "ratio": 1.4981,
+    "color": "#7e7a75"
+  },
+  "wool-texture": {
+    "width": 2000,
+    "height": 1273,
+    "ratio": 1.5711,
+    "color": "#b3987b"
+  },
+  "wool-fibers": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#9c9e96"
+  },
+  "stack-peach": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#a57a64"
+  },
+  "cable-knit": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#dcc6be"
+  },
+  "model-field": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#7d6465"
+  },
+  "yarn-knit": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#807b72"
+  },
+  "stack-grey": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#a09e9d"
+  },
+  "sweater-chair-white": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#ebe6e4"
+  },
+  "model-nainital": {
+    "width": 2000,
+    "height": 2997,
+    "ratio": 0.6673,
+    "color": "#65727d"
+  },
+  "nalanda-2": {
+    "width": 2000,
+    "height": 1500,
+    "ratio": 1.3333,
+    "color": "#999181"
+  },
+  "portrait-bw": {
+    "width": 2000,
+    "height": 2800,
+    "ratio": 0.7143,
+    "color": "#8b817c"
+  },
+  "hanger-holding": {
+    "width": 2000,
+    "height": 2916,
+    "ratio": 0.6859,
+    "color": "#726e69"
+  },
+  "sweater-hanger": {
+    "width": 2000,
+    "height": 3000,
+    "ratio": 0.6667,
+    "color": "#b16e74"
+  },
+  "clothing-rack": {
+    "width": 2000,
+    "height": 1333,
+    "ratio": 1.5004,
+    "color": "#a29e9a"
+  }
+}
